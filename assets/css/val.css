@@ -68,6 +68,9 @@ img{
 }
 .btn-secondary{
 	/*border: 1px solid purple;*/
+	/*width: 100%;*/
+	/*height: auto;*/
+	display: inline-flex;
 	background-color: #cce5ff;
 }
 .btn-secondary:hover {
