@@ -43,16 +43,26 @@ img{
 	margin-left: 525px;
 	border-radius: 30px;
 }
+i {
+	float: right;
+	padding: 1%;
+	color: #0056b3;
+}
 .btn-group{
 	border-radius: 5px;
-	float: left;
+	position: relative;
+	display: inline-flex;
+	/*width: 100%;*/
+	height: auto;
 	color: #8533ff;
-	margin: 20px 0px 60px 380px;
+	margin: 20px 0px 20px 380px;
 	font-family: 'Quicksand';
 }
 .btn-secondary{
-	/*border: 1px solid purple;*/
+	border: none;
+	color: #8533ff;
 	background-color: #cce5ff;
+	/*display: inline-flex;*/
 }
 .btn-secondary:hover {
 	color: #cce5ff;

@@ -5,7 +5,7 @@ body{
 	font-family: 'Mali';
 	text-align: right;
 	color: #0056b3;
-	font-size: 70px;
+	font-size: 65px;
 	margin-right: 90px;
 }
 .next_title{
@@ -31,6 +31,11 @@ div h2{
 	font-size: 30px;
 /*	margin: 60px;*/
 }
+i {
+	float: right;
+	padding: 1%;
+	color: #0056b3;
+}
 div h2 :hover{
 	color: #0056b3;
 }
@@ -53,22 +58,28 @@ footer {
 	/*background-color: #ccccff;
 	width: 100%;*/
 }
+
 hr {
     border-top:  1px solid #0056b3;
     width: 100%;
     margin-top: 68px;
 }
+
 .btn-group{
 	border-radius: 5px;
 	float: left;
+	/*display: inline-flex;*/
+	/*width: 100%;*/
+	/*height: auto;*/
 	color: #8533ff;
-	margin-top: 30px;
-	margin-left: 30px;
+	margin: 20px 0px 20px 20px;
 	font-family: 'Quicksand';
 }
 .btn-secondary{
-	/*border: 1px solid purple;*/
+	border: none;
+	color: #8533ff;
 	background-color: #cce5ff;
+	/*display: inline-flex;*/
 }
 .btn-secondary:hover {
 	color: #cce5ff;
